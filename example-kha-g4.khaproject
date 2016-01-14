@@ -1,0 +1,8 @@
+var project = new Project('SpriterExampleKhaG4');
+
+project.addSources('src/spriter/example-kha-g4');
+project.addSources('SpriterHaxeEngine');
+
+project.addAssets('assets/player1/**');
+
+return project;
